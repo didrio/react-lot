@@ -1,0 +1,30 @@
+{
+  "name": "react-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./distribution/index.js",
+  "scripts": {
+    "build": "babel source --out-dir distribution; ./node_modules/.bin/uglifyjs ./distribution/index.js -o ./distribution/index.min.js -c -m",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yokyak/react-agent.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yokyak/react-agent/issues"
+  },
+  "homepage": "https://github.com/yokyak/react-agent#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "uglify-js": "^3.3.8"
+  }
+}
