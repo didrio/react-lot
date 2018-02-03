@@ -1,5 +1,5 @@
 {
-  "name": "react-store",
+  "name": "react-lot",
   "version": "1.0.0",
   "description": "",
   "main": "./distribution/index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/didrio/react-store.git"
+    "url": "git+https://github.com/didrio/react-lot.git"
   },
   "author": "Andrew Harris",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/didrio/react-store/issues"
+    "url": "https://github.com/didrio/react-lot/issues"
   },
-  "homepage": "https://github.com/didrio/react-store#readme",
+  "homepage": "https://github.com/didrio/react-lot#readme",
   "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",

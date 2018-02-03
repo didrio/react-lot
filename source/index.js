@@ -71,7 +71,7 @@ class ProviderWrapper extends Component {
   }
 }
 
-const store = {
+const lot = {
   Wrapper: (props) => {
     // Initial set up with any attributes used with Store component
     const initial = props.initial || {};
@@ -102,4 +102,4 @@ const store = {
   }
 };
 
-export default store;
+export default lot;
