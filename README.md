@@ -1,7 +1,7 @@
 # React Lot
 
 <p align="center">
-  <img src='https://i.imgur.com/2XlVv5X.png' />
+  <img style='width: 50%' src='https://i.imgur.com/2XlVv5X.png' />
 </p>
 
 A dead simple React store that can easily be updated and accessed from any React component. Built on top of Redux so the devTools extension can be used. Follows Redux's philosophy of never directly mutating state and always returning a fresh state on updates.  
