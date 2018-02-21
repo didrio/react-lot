@@ -8,8 +8,8 @@ A dead simple React store that can easily be updated and accessed from any React
 
 There's only two methods to know. 
 ```javascript
-set({ username: didrio });
-get('username');
+lot.set({ username: didrio });
+lot.get('username');
 ```
 
 ## Install
